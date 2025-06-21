@@ -9,3 +9,4 @@ resource "aws_instance" "main" {
   iam_instance_profile = aws_iam_instance_profile.jenkins_profile.name
 }
 
+ 

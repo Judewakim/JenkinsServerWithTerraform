@@ -24,3 +24,4 @@ sudo apt-get install -y jenkins
 # Enable and start Jenkins service
 sudo systemctl enable jenkins
 sudo systemctl start jenkins
+ 

@@ -3,5 +3,5 @@ output "ec2_dns" {
 }
 
 output "ec2_ip" {
-  value = aws_instance.main.public_ip
+  value = aws_instance.main.public_ip 
 }

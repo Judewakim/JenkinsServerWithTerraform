@@ -18,4 +18,4 @@ resource "aws_key_pair" "ec2_key_pair" {
 variable "ec2_security_group" {
     type = string
     default = "sg-02f180edc8873a771" //previously created
-}
+} 

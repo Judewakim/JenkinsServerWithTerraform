@@ -38,7 +38,7 @@ data "aws_iam_policy_document" "jenkins_s3_access" {
 
     resources = [
       "arn:aws:s3:::jenkins-artifacts-bucket",
-      "arn:aws:s3:::jenkins-artifacts-bucket/*"
+      "arn:aws:s3:::jenkins-artifacts-bucket/*" 
     ]
   }
 }

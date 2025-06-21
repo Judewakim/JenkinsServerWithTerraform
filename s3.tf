@@ -2,3 +2,4 @@
 resource "aws_s3_bucket" "jenkins_artifacts_bucket" {
     bucket = "luit-terraform1-s3-jenkins-artifacts"
 }
+ 
